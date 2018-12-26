@@ -1,0 +1,22 @@
+body{
+    background: url("../images/drummer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drumkeys{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.drumkey{
+    border: .3rem solid #B6BB28;
+    color: #B6BB28;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    margin: 4px;
+}
